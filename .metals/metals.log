@@ -1,0 +1,89 @@
+2024.09.10 00:57:50 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template' for client Visual Studio Code 1.93.0.
+2024.09.10 00:57:51 INFO  time: initialize in 0.5s
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@73e593c8]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3cbdd5d8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@73e593c8]
+2024.09.10 00:57:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.10 00:57:57 INFO  no build target found for C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\app\src\main\scala\taller\BuscarLista.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.10 00:58:03 INFO  running 'C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\gradlew.bat --stacktrace --console=plain --init-script C:\Users\JUANJO~1\AppData\Local\Temp\metals8745394384988403052\init-script.gradle bloopInstall'
+sept 10, 2024 12:58:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10
+2024.09.10 00:58:17 INFO  no build target found for C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\app\src\main\scala\taller\BuscarLista.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.10 00:58:17 INFO  Starting a Gradle Daemon, 3 incompatible and 10 stopped Daemons could not be reused, use --status for details
+2024.09.10 00:58:43 INFO  > Task :configureBloopInstall
+2024.09.10 00:58:43 INFO  > Task :bloopInstall
+2024.09.10 00:58:44 INFO  > Task :app:configureBloopInstall
+2024.09.10 00:58:44 INFO  > Task :app:bloopInstall
+2024.09.10 00:58:44 INFO  
+2024.09.10 00:58:44 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+2024.09.10 00:58:44 INFO  
+2024.09.10 00:58:44 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2024.09.10 00:58:44 INFO  
+2024.09.10 00:58:44 INFO  For more on this, please refer to https://docs.gradle.org/8.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2024.09.10 00:58:44 INFO  
+2024.09.10 00:58:44 INFO  BUILD SUCCESSFUL in 32s
+2024.09.10 00:58:44 INFO  4 actionable tasks: 4 executed
+2024.09.10 00:58:46 INFO  time: ran 'gradle bloopInstall' in 42s
+2024.09.10 00:58:46 INFO  Attempting to connect to the build server...
+2024.09.10 00:58:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\bsp.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.09.10 00:58:47 INFO  time: Connected to build server in 1.27s
+2024.09.10 00:58:47 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.10 00:58:47 INFO  time: Imported build in 0.21s
+2024.09.10 00:58:47 INFO  running doctor check
+2024.09.10 00:58:47 INFO  java targets: app, app-test
+2024.09.10 00:58:54 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.10 00:59:07 INFO  time: indexed workspace in 20s
+2024.09.10 00:59:08 INFO  compiling app (3 scala sources)
+2024.09.10 00:59:13 INFO  compiling app-test (2 scala sources)
+2024.09.10 00:59:13 INFO  time: compiled app in 6.1s
+2024.09.10 00:59:15 INFO  time: compiled app-test in 1.78s
+sept 10, 2024 12:59:19 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2024.09.10 01:04:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-server.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.09.10 01:04:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-client.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.09.10 01:04:34 INFO  Starting debug proxy for [taller.BuscarListaTest(Encontrar 3 en List(1, 2, 3, 4, 5))]
+2024.09.10 01:04:34 INFO  Initialized Scala 3 decoder in 7 milliseconds
+2024.09.10 01:04:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50664 .
+2024.09.10 01:04:35 INFO  Attaching to debuggee VM succeeded.
+2024.09.10 01:04:37 INFO  Canceling debug proxy for [taller.BuscarListaTest(Encontrar 3 en List(1, 2, 3, 4, 5))]
+2024.09.10 01:04:37 INFO  Closing debug server tcp://0.0.0.0:50660
+2024.09.10 01:04:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-server.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.09.10 01:04:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-client.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.09.10 01:04:43 INFO  Starting debug proxy for [taller.BuscarListaTest(No encontrar 6 en List(1, 2, 3, 4, 5))]
+2024.09.10 01:04:43 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2024.09.10 01:04:43 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50674 .
+2024.09.10 01:04:43 INFO  Attaching to debuggee VM succeeded.
+2024.09.10 01:04:44 INFO  Canceling debug proxy for [taller.BuscarListaTest(No encontrar 6 en List(1, 2, 3, 4, 5))]
+2024.09.10 01:04:44 INFO  Closing debug server tcp://0.0.0.0:50670
+2024.09.10 01:04:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-server.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.09.10 01:04:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\dap-client.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.09.10 01:04:51 INFO  Starting debug proxy for [taller.BuscarListaTest(No encontrar 3 en List())]
+2024.09.10 01:04:51 INFO  Initialized Scala 3 decoder in 1 millisecond
+2024.09.10 01:04:51 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50686 .
+2024.09.10 01:04:51 INFO  Attaching to debuggee VM succeeded.
+2024.09.10 01:04:52 INFO  Canceling debug proxy for [taller.BuscarListaTest(No encontrar 3 en List())]
+2024.09.10 01:04:52 INFO  Closing debug server tcp://0.0.0.0:50682
+2024.09.10 01:06:15 INFO  Shutting down server
+2024.09.10 01:06:15 INFO  shutting down Metals
+2024.09.10 01:06:15 INFO  Shut down connection with build server.
+2024.09.10 01:06:15 INFO  Exiting server
+2024.09.10 01:07:14 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template' for client Visual Studio Code 1.93.0.
+2024.09.10 01:07:15 INFO  time: initialize in 0.85s
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@754846f2]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5de1038f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@754846f2]
+2024.09.10 01:07:19 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.10 01:07:21 INFO  no build target found for C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\app\src\main\scala\taller\BuscarLista.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.10 01:07:21 INFO  Attempting to connect to the build server...
+2024.09.10 01:07:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Juan Jose\Desktop\PFC-TALLERES\talleres-pfc-template\.metals\bsp.trace.json or C:\Users\Juan Jose\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.09.10 01:07:23 INFO  time: Connected to build server in 2.38s
+2024.09.10 01:07:23 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.10 01:07:23 INFO  time: Imported build in 0.43s
+2024.09.10 01:07:25 INFO  running doctor check
+2024.09.10 01:07:25 INFO  java targets: app, app-test
+2024.09.10 01:07:33 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.10 01:07:35 INFO  time: indexed workspace in 9.97s
