@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "P1 Peasant Algorithm",
+      "setup": "",
+      "run": "gradle test  --tests taller1.PeasantAlgorithmTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "P2 FastAlgorithm",
+      "setup": "",
+      "run": " gradle test  --tests taller1.FastAlgorithmTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "P3 Split Algorithm",
+      "setup": "",
+      "run": "gradle test  --tests taller1.SplitAlgorithmTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
